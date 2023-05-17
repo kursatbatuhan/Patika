@@ -14,7 +14,7 @@ public class Main {
 
             if (control == 0){
                 System.out.print(i + " ");
-                
+
             }
 
         }
