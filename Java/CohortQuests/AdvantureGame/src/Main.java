@@ -9,7 +9,11 @@ public class Main {
         Weapon pistol = new Weapon(1, "Pistol", 2, 25);
         Weapon sword = new Weapon(2, "Sword", 3, 35);
         Weapon rifle = new Weapon(3, "Rifle", 7, 45);
-        
+
+        Armor lightArmor = new Armor(1, "Hafif", 1, 15);
+        Armor mediumArmor = new Armor(2, "Orta", 3, 25);
+        Armor heavyArmor = new Armor(3, "Ağır", 5, 40);
+
         Player player = new Player();
         player.setCharacter(samurai);
 
