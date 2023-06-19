@@ -1,29 +1,15 @@
 public class Weapon {
-    private int id;
     private String name;
+    private int id;
     private int damage;
-    private int price;
+    private int cost;
 
-    public Weapon(int id, String name, int damage, int price) {
-        this.id = id;
+    public Weapon(String name, int id, int damage, int cost) {
         this.name = name;
+        this.id = id;
         this.damage = damage;
-        this.price = price;
+        this.cost = cost;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getDamage() {
-        return damage;
-    }
-
-    public int getPrice() {
-        return price;
-    }
+    // Weapon properties and behaviors
 }

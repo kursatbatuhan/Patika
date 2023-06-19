@@ -15,23 +15,5 @@ public class Character {
         this.currency = currency;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getDamage() {
-        return damage;
-    }
-
-    public int getHealth() {
-        return health;
-    }
-
-    public int getCurrency() {
-        return currency;
-    }
+    // Getters and setters
 }

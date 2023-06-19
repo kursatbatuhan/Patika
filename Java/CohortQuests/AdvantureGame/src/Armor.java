@@ -1,29 +1,15 @@
 public class Armor {
-    private int id;
     private String name;
+    private int id;
     private int defense;
-    private int price;
+    private int cost;
 
-    public Armor(int id, String name, int defense, int price) {
-        this.id = id;
+    public Armor(String name, int id, int defense, int cost) {
         this.name = name;
+        this.id = id;
         this.defense = defense;
-        this.price = price;
+        this.cost = cost;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getDefense() {
-        return defense;
-    }
-
-    public int getPrice() {
-        return price;
-    }
+    // Armor properties and behaviors
 }

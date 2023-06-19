@@ -30,6 +30,9 @@ public class Player {
     }
 
     public void heal() {
+        // Sağlık yenileme işlemleri burada gerçekleştirilir
+        // Örneğin, sağlık değerini başlangıç değerine ayarlayabilirsiniz
+        // Bu örnekte başlangıç sağlık değeri 100 olarak varsayıldı
         int startingHealth = 100;
         health = startingHealth;
     }
