@@ -5,8 +5,6 @@ public class Character {
     private int health;
     private int currency;
 
-    // Character properties and behaviors
-
     public Character(int id, String name, int damage, int health, int currency) {
         this.id = id;
         this.name = name;
@@ -15,5 +13,27 @@ public class Character {
         this.currency = currency;
     }
 
-    // Getters and setters
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public int getCurrency() {
+        return currency;
+    }
+
+    public void reduceHealth(int damage) {
+        health -= damage;
+    }
 }

@@ -1,13 +1,29 @@
 public class Monster {
-    private String name;
-    private int minQuantity;
-    private int maxQuantity;
+    private int id;
+    private int damage;
+    private int health;
+    private String currency;
 
-    public Monster(String name, int minQuantity, int maxQuantity) {
-        this.name = name;
-        this.minQuantity = minQuantity;
-        this.maxQuantity = maxQuantity;
+    public Monster(int id, int damage, int health, String currency) {
+        this.id = id;
+        this.damage = damage;
+        this.health = health;
+        this.currency = currency;
     }
 
-    // Monster properties and behaviors
+    public int getId() {
+        return id;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public String getCurrency() {
+        return currency;
+    }
 }
