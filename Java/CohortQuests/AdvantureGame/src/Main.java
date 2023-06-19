@@ -22,5 +22,8 @@ public class Main {
         monsters.put(2, new Monster(2, 4, 14, 7)); // Vampir
         monsters.put(3, new Monster(3, 7, 20, 12)); // Ayı
 
+        Area safeHouse = new Area("Güvenli Ev", true);
+
+
     }
 }

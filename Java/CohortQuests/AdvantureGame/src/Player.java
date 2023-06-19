@@ -1,6 +1,7 @@
 public class Player {
     private Armor armor;
     private Character character;
+    private int health;
 
     // Player properties and behaviors
 
@@ -18,5 +19,18 @@ public class Player {
 
     public Character getCharacter() {
         return character;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void heal() {
+        int startingHealth = 100;
+        health = startingHealth;
     }
 }

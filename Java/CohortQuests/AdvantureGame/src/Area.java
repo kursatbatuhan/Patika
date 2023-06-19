@@ -1,22 +1,23 @@
 public class Area {
     private String areaName;
-    private Monster monster;
-    private String reward;
-    private boolean areaCleared;
+    private boolean isSafeHouse;
+
+    public Area(String areaName, boolean isSafeHouse) {
+        this.areaName = areaName;
+        this.isSafeHouse = isSafeHouse;
+    }
 
     public String getAreaName() {
         return areaName;
     }
 
-    public Monster getMonster() {
-        return monster;
+    public boolean isSafeHouse() {
+        return isSafeHouse;
     }
 
-    public String getReward() {
-        return reward;
-    }
-
-    public boolean isAreaCleared() {
-        return areaCleared;
+    public void enterArea(Player player) {
+        if (isSafeHouse) {
+            player.heal();
+        }
     }
 }
